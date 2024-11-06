@@ -15,5 +15,6 @@ jobs:
         with:
           java-version: "11"
           cashe: maven
+          distribution: "temurin"
       - uses: browser-actions/setup-chrome@latest
       - run: mvn clean test
